@@ -1,0 +1,38 @@
+body{
+margin:30px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile{
+width:150px;
+}
+
+.card{
+width:400px;
+margin:0 auto;
+display:flex;
+justify-content:space-around;
+/*space-between,center,end,start*/
+padding:20px;
+text-align:center;
+background:#E6FFFD;
+color:#2b2839;
+border-bottom:6px solid #3887BE;
+box-shadow:0px 0px 22px black;
+animation-name:test;
+animation-duration:3s;
+animation-iteration-count:2;
+}
+
+.blue-border{
+border:1px dotted blue;
+}
+
+@keyframes test{
+0% {background:#EFFFFD;}
+25% {background:#B8FFF9;}
+50% {background:#85F4FF;}
+100%{background:#EFFFFD;}
+}
+h3:hover,p:hover,h4:hover{
+color:#5755FE;}
